@@ -1,3 +1,14 @@
+# Once Cloned
+When you have cloned the repository and run npm install for the dependencies, you will need to start the servers.
+
+# npm start
+This will run in develoment mode on http://localhost:3000
+
+# npm run server
+This project is also running a json server as a mock backend. This resides at http://localhost:5000/items.
+This link can show you the data in json format, however, viewing is not necessary.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
