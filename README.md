@@ -8,6 +8,12 @@ This will run in develoment mode on http://localhost:3000
 This project is also running a json server as a mock backend. This resides at http://localhost:5000/items.
 This link can show you the data in json format, however, viewing is not necessary.
 
+# Both servers need to be running
+
+
+
+
+
 
 # Getting Started with Create React App
 
