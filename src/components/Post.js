@@ -10,7 +10,7 @@ const Post = ({post,visible, onClick}) => {
     return (
     < div className="container">
             <img onClick={onClick} src={post.media.m} alt={post.title} style={{padding: '10px', maxWidth: '200px'}} />
-            <p><a href={post.link}>{post.title}</a> by <a href={getLink()}>{post.author}</a></p>
+            <p><a href={post.link}>{post.title}</a><br/> by <br/> <a href={getLink()}>{post.author}</a></p>
             {/* <p>{parse(post.description)}</p> */}
             {post.tags && <p><b>Tags: </b>{post.tags}</p>}
     </div>
