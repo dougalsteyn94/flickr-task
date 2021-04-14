@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.img {
+  display: inline-block;
+  
+}
+
+.header {
+  color: white;
+}
+
+a:link, a:visited {
+  color: white;
+}
+
+.container {
+  max-width: 200px;
+  margin: 30px;
+  overflow: auto;
+  max-height: 300px;
+  border: 1px solid #333333;
+  padding: 30px;
+  border-radius: 5px;
+  display: inline-block;
+  color: white;
+  background-color: #1e1e1e;
+}
